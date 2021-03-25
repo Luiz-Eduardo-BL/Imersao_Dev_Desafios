@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>
+      Imersão Dev - Aula 01
+    </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,600;1,300;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+      <div class="container">
+      <h1 class="page-title">
+        Conversor de moedas
+      </h1> 
+      <p class="page-subtitle">
+        Descubra os valores em dolar U$
+      </p>
+        <form id="teste">
+          <label for="valorProduto">Qual e o valor do Produto?</label><br>
+          <input type="text" id="valorProduto" name="fname"><br>
+          <label for="cotacaoMoeda">Qual e a Cotação do Moeda?</label><br>
+          <input type="text" id="cotacaoMoeda" name="lname">
+          </br></br>
+          <input type="submit" value="Enviar" onclick="capturar()">
+          </br></br>
+          <p id="Resultado"></p>
+        </form>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+            <script type="module">
+        import {App} from './src/App.js' 
+        
+    </script>
+</body>
+</html>
